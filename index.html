@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>QR Redirect</title>
+  <script>
+    // Add your 5 member links here
+    const links = [
+      "https://link1.com",
+      "https://link2.com",
+      "https://link3.com",
+      "https://link4.com",
+      "https://link5.com"
+    ];
+
+    // Pick one link randomly
+    const randomLink = links[Math.floor(Math.random() * links.length)];
+
+    // Redirect immediately
+    window.location.href = randomLink;
+  </script>
+</head>
+<body>
+  <p>Redirecting…</p>
+</body>
+</html>
