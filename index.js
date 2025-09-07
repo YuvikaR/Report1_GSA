@@ -8,7 +8,7 @@ const links = [
   "https://aiskillshouse.com/student/qr-mediator.html?uid=2878&promptId=6",
   "https://aiskillshouse.com/student/qr-mediator.html?uid=2802&promptId=6",
   "https://aiskillshouse.com/student/qr-mediator.html?uid=2877&promptId=6",
-  "https://www.google.com/"
+  "https://aiskillshouse.com/student/qr-mediator.html?uid=2803&promptId=6"
 ];
 
 let counter = 0;
@@ -23,3 +23,4 @@ app.listen(port, () => {
   console.log(`QR Rotator running at http://localhost:${port}`);
 
 });
+
