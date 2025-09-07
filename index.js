@@ -4,10 +4,10 @@ const port = process.env.PORT || 3000;
 
 // Your 5 links here
 const links = [
-  "https://www.wikipedia.org/",
-  "https://www.openai.com/",
-  "https://www.github.com/",
-  "https://www.spotify.com/",
+  "https://aiskillshouse.com/student/qr-mediator.html?uid=2804&promptId=6",
+  "https://aiskillshouse.com/student/qr-mediator.html?uid=2878&promptId=6",
+  "https://aiskillshouse.com/student/qr-mediator.html?uid=2802&promptId=6",
+  "https://aiskillshouse.com/student/qr-mediator.html?uid=2877&promptId=6",
   "https://www.google.com/"
 ];
 
@@ -21,4 +21,5 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   console.log(`QR Rotator running at http://localhost:${port}`);
+
 });
